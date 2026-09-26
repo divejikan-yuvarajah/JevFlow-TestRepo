@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "title": "OAuth login returns 500 after refresh token expires",
+    "body": "When the access token expires and the refresh request fails, POST /auth/login returns HTTP 500 instead of redirecting the user to sign in again. Reproduced in staging and production."
+  },
+  {
+    "id": 2,
+    "title": "Users can see another customer's invoice by changing the invoice ID",
+    "body": "Logged-in customer A can request /api/invoices/184 even when invoice 184 belongs to customer B. The API returns the invoice instead of 403. This is reproducible in staging."
+  },
+  {
+    "id": 3,
+    "title": "Add dark mode to the dashboard",
+    "body": "Please add a dark theme to the web dashboard with a user preference toggle and persistence across sessions."
+  },
+  {
+    "id": 4,
+    "title": "Document how to run the project with Node.js 20",
+    "body": "The README does not explain the required Node version or the commands for local setup. Please add installation, start, and test instructions."
+  },
+  {
+    "id": 5,
+    "title": "Database CPU jumps to 95% during report generation",
+    "body": "Generating the monthly analytics report causes the PostgreSQL CPU to remain above 90% for several minutes. Queries appear to scan the entire transactions table."
+  },
+  {
+    "id": 6,
+    "title": "Deployments should run smoke tests before production rollout",
+    "body": "Our GitHub Actions workflow deploys immediately after build. Add a smoke-test stage and prevent production deployment when health checks fail."
+  },
+  {
+    "id": 7,
+    "title": "AI assistant gives confident answers when context is missing",
+    "body": "When the RAG retriever returns zero useful documents, the assistant still produces a confident answer. We should detect insufficient context and request clarification or escalate."
+  },
+  {
+    "id": 8,
+    "title": "Can we switch the API from REST to GraphQL?",
+    "body": "Would GraphQL simplify the frontend data fetching? I am not proposing an implementation yet; I want to understand the trade-offs for this project."
+  },
+  {
+    "id": 9,
+    "title": "Upgrade GitHub Actions checkout and setup-node versions",
+    "body": "The repository still uses older action versions in CI. Update the workflow dependencies and verify tests continue to pass."
+  },
+  {
+    "id": 10,
+    "title": "Search field becomes unusable on mobile screens",
+    "body": "At widths below 380px the search input overlaps the filter button, preventing users from typing. Seen on Chrome Android."
+  },
+  {
+    "id": 11,
+    "title": "Rotate leaked staging API key immediately",
+    "body": "A staging third-party API key was accidentally pasted into yesterday's CI logs. The logs are visible to repository collaborators. We need to revoke and rotate the key and inspect recent usage."
+  },
+  {
+    "id": 12,
+    "title": "Add CSV export for monthly transactions",
+    "body": "Finance users want to download the filtered monthly transaction table as a CSV file from the dashboard."
+  },
+  {
+    "id": 13,
+    "title": "Sometimes the app feels slow",
+    "body": "A few pages feel slower than before, but I do not have exact timings or steps to reproduce. It might happen more often after leaving the app open for a while."
+  },
+  {
+    "id": 14,
+    "title": "Should we cache AI classification responses?",
+    "body": "Would caching repeated classification requests reduce latency and cost? What risks would we have if issue content changes?"
+  },
+  {
+    "id": 15,
+    "title": "Production health endpoint exposes internal build metadata",
+    "body": "GET /health currently returns the commit SHA, server hostname, environment name, and deployment timestamp publicly. Please review whether this information should be exposed."
+  }
+]

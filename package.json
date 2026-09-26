@@ -1,0 +1,17 @@
+{
+  "name": "jevflow-test-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Disposable GitHub repository for testing JevFlow issue triage automation.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "seed:issues": "node scripts/create-sample-issues.js",
+    "list:issues": "node scripts/list-sample-issues.js",
+    "seed:labels": "node scripts/create-labels.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

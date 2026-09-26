@@ -1,0 +1,102 @@
+[
+  {
+    "name": "type:bug",
+    "color": "d73a4a",
+    "description": "Bug or defect"
+  },
+  {
+    "name": "type:feature",
+    "color": "a2eeef",
+    "description": "Feature request"
+  },
+  {
+    "name": "type:documentation",
+    "color": "0075ca",
+    "description": "Documentation change"
+  },
+  {
+    "name": "type:question",
+    "color": "d876e3",
+    "description": "Question or discussion"
+  },
+  {
+    "name": "type:maintenance",
+    "color": "cfd3d7",
+    "description": "Maintenance work"
+  },
+  {
+    "name": "priority:critical",
+    "color": "b60205",
+    "description": "Critical priority"
+  },
+  {
+    "name": "priority:high",
+    "color": "d93f0b",
+    "description": "High priority"
+  },
+  {
+    "name": "priority:medium",
+    "color": "fbca04",
+    "description": "Medium priority"
+  },
+  {
+    "name": "priority:low",
+    "color": "0e8a16",
+    "description": "Low priority"
+  },
+  {
+    "name": "area:frontend",
+    "color": "1d76db",
+    "description": "Frontend area"
+  },
+  {
+    "name": "area:backend",
+    "color": "5319e7",
+    "description": "Backend area"
+  },
+  {
+    "name": "area:database",
+    "color": "0052cc",
+    "description": "Database area"
+  },
+  {
+    "name": "area:devops",
+    "color": "006b75",
+    "description": "DevOps area"
+  },
+  {
+    "name": "area:ai",
+    "color": "7057ff",
+    "description": "AI/ML area"
+  },
+  {
+    "name": "area:security",
+    "color": "e11d21",
+    "description": "Security area"
+  },
+  {
+    "name": "area:general",
+    "color": "ededed",
+    "description": "General area"
+  },
+  {
+    "name": "jev:auto-triaged",
+    "color": "0e8a16",
+    "description": "Automatically triaged by JevFlow"
+  },
+  {
+    "name": "jev:review-suggested",
+    "color": "fbca04",
+    "description": "JevFlow suggests human review"
+  },
+  {
+    "name": "jev:human-review",
+    "color": "d93f0b",
+    "description": "JevFlow requires human review"
+  },
+  {
+    "name": "security-review",
+    "color": "b60205",
+    "description": "Security review required"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "OAuth login returns 500 after refresh token expires",
+    "expected": {
+      "type": "bug",
+      "area": "backend",
+      "priority": "high",
+      "security_sensitive": false,
+      "human_review": true
+    },
+    "notes": "Strong backend bug; authentication context may increase review need."
+  },
+  {
+    "id": 2,
+    "title": "Users can see another customer's invoice by changing the invoice ID",
+    "expected": {
+      "type": "bug",
+      "area": "security",
+      "priority": "critical",
+      "security_sensitive": true,
+      "human_review": true
+    },
+    "notes": "Clear authorization/security issue."
+  },
+  {
+    "id": 3,
+    "title": "Add dark mode to the dashboard",
+    "expected": {
+      "type": "feature",
+      "area": "frontend",
+      "priority": "low",
+      "security_sensitive": false,
+      "human_review": false
+    },
+    "notes": "Straightforward product feature."
+  },
+  {
+    "id": 4,
+    "title": "Document how to run the project with Node.js 20",
+    "expected": {
+      "type": "documentation",
+      "area": "general",
+      "priority": "low",
+      "security_sensitive": false,
+      "human_review": false
+    },
+    "notes": "Documentation-only issue."
+  },
+  {
+    "id": 5,
+    "title": "Database CPU jumps to 95% during report generation",
+    "expected": {
+      "type": "bug",
+      "area": "database",
+      "priority": "high",
+      "security_sensitive": false,
+      "human_review": true
+    },
+    "notes": "Performance/database problem."
+  },
+  {
+    "id": 6,
+    "title": "Deployments should run smoke tests before production rollout",
+    "expected": {
+      "type": "feature",
+      "area": "devops",
+      "priority": "high",
+      "security_sensitive": false,
+      "human_review": true
+    },
+    "notes": "CI/CD reliability feature."
+  },
+  {
+    "id": 7,
+    "title": "AI assistant gives confident answers when context is missing",
+    "expected": {
+      "type": "bug",
+      "area": "ai",
+      "priority": "high",
+      "security_sensitive": false,
+      "human_review": true
+    },
+    "notes": "AI reliability issue with uncertainty."
+  },
+  {
+    "id": 8,
+    "title": "Can we switch the API from REST to GraphQL?",
+    "expected": {
+      "type": "question",
+      "area": "backend",
+      "priority": "low",
+      "security_sensitive": false,
+      "human_review": true
+    },
+    "notes": "Architectural question, not a feature request."
+  },
+  {
+    "id": 9,
+    "title": "Upgrade GitHub Actions checkout and setup-node versions",
+    "expected": {
+      "type": "maintenance",
+      "area": "devops",
+      "priority": "medium",
+      "security_sensitive": false,
+      "human_review": false
+    },
+    "notes": "Routine maintenance."
+  },
+  {
+    "id": 10,
+    "title": "Search field becomes unusable on mobile screens",
+    "expected": {
+      "type": "bug",
+      "area": "frontend",
+      "priority": "medium",
+      "security_sensitive": false,
+      "human_review": false
+    },
+    "notes": "Responsive frontend bug."
+  },
+  {
+    "id": 11,
+    "title": "Rotate leaked staging API key immediately",
+    "expected": {
+      "type": "maintenance",
+      "area": "security",
+      "priority": "critical",
+      "security_sensitive": true,
+      "human_review": true
+    },
+    "notes": "High-risk security maintenance."
+  },
+  {
+    "id": 12,
+    "title": "Add CSV export for monthly transactions",
+    "expected": {
+      "type": "feature",
+      "area": "frontend",
+      "priority": "medium",
+      "security_sensitive": false,
+      "human_review": false
+    },
+    "notes": "Normal user-facing feature."
+  },
+  {
+    "id": 13,
+    "title": "Sometimes the app feels slow",
+    "expected": {
+      "type": "bug",
+      "area": "general",
+      "priority": "medium",
+      "security_sensitive": false,
+      "human_review": true
+    },
+    "notes": "Deliberately ambiguous; useful for confidence-gate testing."
+  },
+  {
+    "id": 14,
+    "title": "Should we cache AI classification responses?",
+    "expected": {
+      "type": "question",
+      "area": "ai",
+      "priority": "low",
+      "security_sensitive": false,
+      "human_review": true
+    },
+    "notes": "AI architecture/design question."
+  },
+  {
+    "id": 15,
+    "title": "Production health endpoint exposes internal build metadata",
+    "expected": {
+      "type": "bug",
+      "area": "security",
+      "priority": "high",
+      "security_sensitive": true,
+      "human_review": true
+    },
+    "notes": "Security-sensitive information disclosure."
+  }
+]
